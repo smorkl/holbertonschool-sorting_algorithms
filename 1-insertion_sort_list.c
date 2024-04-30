@@ -1,5 +1,12 @@
 #include "sort.h"
 
+/**
+* insertion_sort_list - function that sorts a doubly linked list of
+* integers with insertion sort algorithm.
+* @list: doubly linked list
+*
+*/
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *a_node, *b_node;
